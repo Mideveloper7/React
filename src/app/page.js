@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import CadsProjects from './components/CadsProjects'
 
 const page = () => {
   return (
-    <div>
-      <h1>hola</h1>
-    </div>
+    <>
+     <Header />
+     <CadsProjects />
+     <Footer />
+    </>
   )
 }
 
