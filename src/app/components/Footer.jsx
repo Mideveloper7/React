@@ -12,9 +12,9 @@ const Footer = () => {
       <div className="flex justify-around items-center p-4 text-center text-white">
         <Link href="/" passHref>
           <p className="flex flex-col items-center text-white hover:text-green-500 transition duration-300 cursor-pointer">
-            <span className="text-xs">INICIO</span>
-          </p>
-        </Link>
+            <span className="text-xs text-blue-500 dark:text-white">INICIO</span>
+           </p> 
+        </Link> 
 
         <div className="relative flex flex-col items-center">
           <button
